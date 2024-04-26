@@ -1,15 +1,10 @@
 import { NavLink } from "react-router-dom";
-import "./Navbar.css"
+import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <div>
-      <nav className="grid grid-cols-1 lg:grid-cols-3 justify-items-center container mx-auto p-6 gap-5 sticky">
-        {/* brand logo here */}
-        <div className="flex items-center justify-center lg:justify-start lg:mr-36 space-x-4">
-          {/* <img src="logo" alt="brand logo" /> */}
-          <span className="text-2xl">Wooden</span>
-        </div>
+    <>
+      <nav className="grid grid-cols-1 lg:grid-cols-2 justify-items-center container mx-auto p-6 gap-5">
         <ul className=" col-span-2 flex flex-col lg:flex-row space-x-8 items-center justify-center navContainer">
           <li>
             <NavLink
@@ -73,6 +68,6 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
-    </div>
+    </>
   );
 }

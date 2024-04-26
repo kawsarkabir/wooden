@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../layout/Layout";
 import ErrorPage from "../pages/errorPage/ErrorPage";
- 
 import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
 import MyArtCraftList from "../pages/myArtCraftList/MyArtCraftList";

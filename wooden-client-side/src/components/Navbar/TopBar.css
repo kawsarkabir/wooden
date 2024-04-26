@@ -1,0 +1,23 @@
+.topbarMenu li small {
+  text-transform: uppercase;
+}
+.right_border li {
+  position: relative;
+  padding-right: 10px;
+  margin-right: 5px;
+}
+
+.right_border li::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 0.5px;
+  height: 50%;
+  background-color: #666;
+}
+
+.right_border li:last-child::after {
+  display: none;
+}

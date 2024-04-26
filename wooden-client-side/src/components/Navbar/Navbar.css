@@ -1,0 +1,7 @@
+.navContainer li {
+  transition: 0.4s;
+  font-weight: 500;
+}
+.navContainer li:hover {
+  color: #4d4d4d;
+}

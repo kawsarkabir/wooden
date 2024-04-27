@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/grid";
-import { Autoplay, Grid, Pagination } from "swiper/modules";
-import "../mainContent/popularProducts/PopularProducts.css";
+import { Autoplay, Pagination } from "swiper/modules";
+import "./PopularStoreProducts.css";
 
 export default function PopularStoreProducts() {
   return (
@@ -12,18 +12,35 @@ export default function PopularStoreProducts() {
         <p>Pick the most popular products from us. May you love them!</p>
       </div>
       <Swiper
-        slidesPerView={5}
+        slidesPerView={1}
         spaceBetween={30}
+        breakpoints={{
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 30,
+          },
+        }}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
-        loop={true} // Enable looping of slides
         modules={[Autoplay, Pagination]}
         className="mySwiper mt-10"
       >
         <SwiperSlide>
-          <div className="popularItemCard">
+          <div className="popularItemCard pb-10">
             <div className="cardContent">
               <img
                 src="https://i.ibb.co/Z1s271J/printed-summer-dress-1.jpg"

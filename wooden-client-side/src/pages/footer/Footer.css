@@ -1,0 +1,17 @@
+.social_menu span {
+  border: 0;
+  color: #fff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  transition: 0.4s;
+  border: 2px solid transparent;
+}
+.social_menu span:hover {
+  background: #33c9db;
+ 
+
+  border: 2px solid #ccc;
+}

@@ -4,8 +4,8 @@ export default function TopSellingProducts() {
       <h1 className="bg-[#333] text-[#ccc] font-bold pl-4 py-3 mb-2">
         TOP SELLERS
       </h1>
-      <div className="bg-[#FAFAFA] space-y-3 px-3">
-        <div className="flex  gap-x-4 py-2  items-center border-b border-dashed">
+      <div className="bg-[#FAFAFA] pl-3">
+        <div className="flex  gap-x-4 p-3  items-center border-b border-dashed">
           <img
             src="https://i.ibb.co/YbhKM8x/blouse-3.jpg"
             alt=""
@@ -26,7 +26,7 @@ export default function TopSellingProducts() {
             </div>
           </div>
         </div>
-        <div className="flex  gap-x-4 py-2  items-center border-b border-dashed">
+        <div className="flex  gap-x-4 p-3  items-center border-b border-dashed">
           <img
             src="https://i.ibb.co/YbhKM8x/blouse-3.jpg"
             alt=""
@@ -41,7 +41,7 @@ export default function TopSellingProducts() {
             </div>
           </div>
         </div>
-        <div className="flex  gap-x-4 py-2  items-center border-b border-dashed">
+        <div className="flex  gap-x-4 p-3  items-center border-b border-dashed">
           <img
             src="https://i.ibb.co/YbhKM8x/blouse-3.jpg"
             alt=""
@@ -56,7 +56,7 @@ export default function TopSellingProducts() {
             </div>
           </div>
         </div>
-        <div className="flex  gap-x-4 py-2  items-center border-b border-dashed">
+        <div className="flex  gap-x-4 p-3  items-center border-b border-dashed">
           <img
             src="https://i.ibb.co/YbhKM8x/blouse-3.jpg"
             alt=""
@@ -71,7 +71,7 @@ export default function TopSellingProducts() {
             </div>
           </div>
         </div>
-        <div className="flex  gap-x-4 py-2 items-center border-b border-dashed">
+        <div className="flex  gap-x-4 p-3 items-center border-b border-dashed">
           <img
             src="https://i.ibb.co/YbhKM8x/blouse-3.jpg"
             alt=""
@@ -86,7 +86,7 @@ export default function TopSellingProducts() {
             </div>
           </div>
         </div>
-        <div className="flex  gap-x-4 py-2  items-center border-b border-dashed">
+        <div className="flex  gap-x-4 p-3  items-center border-b border-dashed">
           <img
             src="https://i.ibb.co/YbhKM8x/blouse-3.jpg"
             alt=""

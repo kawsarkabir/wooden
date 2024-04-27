@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <>
       <Banner></Banner>
-      <div className="max-w-screen-xl mx-auto grid lg:grid-cols-4 grid-cols-1 justify-items-center lg:justify-items-start mt-6">
-        <div>
+      <div className="max-w-screen-xl mx-auto grid lg:grid-cols-4 grid-cols-1 justify-items-center lg:justify-items-start mt-6 gap-x-4">
+        <div className="col-span-1 w-full">
           <Aside></Aside>
         </div>
         <div className="col-span-3">

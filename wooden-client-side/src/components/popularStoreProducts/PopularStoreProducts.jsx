@@ -49,14 +49,17 @@ export default function PopularStoreProducts() {
               />
               <div className="overlay"></div>
               <div className="icons">
-                <span className="icon">
+                <span className="icon" data-name="Quick View">
                   <i className="fa-solid fa-eye"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Cart">
                   <i className="fa-solid fa-cart-shopping"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Wishlist">
                   <i className="fa-solid fa-heart"></i>
+                </span>
+                <span className="icon" data-name="Add to Compare">
+                  <i className="fa fa-align-center"></i>
                 </span>
               </div>
             </div>
@@ -76,14 +79,17 @@ export default function PopularStoreProducts() {
               />
               <div className="overlay"></div>
               <div className="icons">
-                <span className="icon">
+                <span className="icon" data-name="Quick View">
                   <i className="fa-solid fa-eye"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Cart">
                   <i className="fa-solid fa-cart-shopping"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Wishlist">
                   <i className="fa-solid fa-heart"></i>
+                </span>
+                <span className="icon" data-name="Add to Compare">
+                  <i className="fa fa-align-center"></i>
                 </span>
               </div>
             </div>
@@ -103,14 +109,17 @@ export default function PopularStoreProducts() {
               />
               <div className="overlay"></div>
               <div className="icons">
-                <span className="icon">
+                <span className="icon" data-name="Quick View">
                   <i className="fa-solid fa-eye"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Cart">
                   <i className="fa-solid fa-cart-shopping"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Wishlist">
                   <i className="fa-solid fa-heart"></i>
+                </span>
+                <span className="icon" data-name="Add to Compare">
+                  <i className="fa fa-align-center"></i>
                 </span>
               </div>
             </div>
@@ -130,14 +139,17 @@ export default function PopularStoreProducts() {
               />
               <div className="overlay"></div>
               <div className="icons">
-                <span className="icon">
+                <span className="icon" data-name="Quick View">
                   <i className="fa-solid fa-eye"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Cart">
                   <i className="fa-solid fa-cart-shopping"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Wishlist">
                   <i className="fa-solid fa-heart"></i>
+                </span>
+                <span className="icon" data-name="Add to Compare">
+                  <i className="fa fa-align-center"></i>
                 </span>
               </div>
             </div>
@@ -157,14 +169,17 @@ export default function PopularStoreProducts() {
               />
               <div className="overlay"></div>
               <div className="icons">
-                <span className="icon">
+                <span className="icon" data-name="Quick View">
                   <i className="fa-solid fa-eye"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Cart">
                   <i className="fa-solid fa-cart-shopping"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Wishlist">
                   <i className="fa-solid fa-heart"></i>
+                </span>
+                <span className="icon" data-name="Add to Compare">
+                  <i className="fa fa-align-center"></i>
                 </span>
               </div>
             </div>
@@ -184,14 +199,17 @@ export default function PopularStoreProducts() {
               />
               <div className="overlay"></div>
               <div className="icons">
-                <span className="icon">
+                <span className="icon" data-name="Quick View">
                   <i className="fa-solid fa-eye"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Cart">
                   <i className="fa-solid fa-cart-shopping"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Wishlist">
                   <i className="fa-solid fa-heart"></i>
+                </span>
+                <span className="icon" data-name="Add to Compare">
+                  <i className="fa fa-align-center"></i>
                 </span>
               </div>
             </div>
@@ -211,14 +229,17 @@ export default function PopularStoreProducts() {
               />
               <div className="overlay"></div>
               <div className="icons">
-                <span className="icon">
+                <span className="icon" data-name="Quick View">
                   <i className="fa-solid fa-eye"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Cart">
                   <i className="fa-solid fa-cart-shopping"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Wishlist">
                   <i className="fa-solid fa-heart"></i>
+                </span>
+                <span className="icon" data-name="Add to Compare">
+                  <i className="fa fa-align-center"></i>
                 </span>
               </div>
             </div>
@@ -238,14 +259,17 @@ export default function PopularStoreProducts() {
               />
               <div className="overlay"></div>
               <div className="icons">
-                <span className="icon">
+                <span className="icon" data-name="Quick View">
                   <i className="fa-solid fa-eye"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Cart">
                   <i className="fa-solid fa-cart-shopping"></i>
                 </span>
-                <span className="icon">
+                <span className="icon" data-name="Add to Wishlist">
                   <i className="fa-solid fa-heart"></i>
+                </span>
+                <span className="icon" data-name="Add to Compare">
+                  <i className="fa fa-align-center"></i>
                 </span>
               </div>
             </div>

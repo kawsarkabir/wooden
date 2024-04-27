@@ -2,8 +2,8 @@ import "./PopularProducts.css";
 
 export default function PopularProducts() {
   return (
-    <section className="my-10 p-3">
-      <h1 className="text-xl lg:text-2xl font-bold">POPULAR THIS WEEK</h1>
+    <section className="my-10 p-3 lg:p-0">
+      <h1 className="text-xl  font-bold">POPULAR THIS WEEK</h1>
       <p>
         Lorem Ipsum has been the industry&lsquo;s standard dummy text ever since
         the 1500s,
@@ -31,7 +31,7 @@ export default function PopularProducts() {
           </div>
           <div className="py-3">
             <h3>Lorem isum</h3>
-            <p>$50.90</p>
+            <p className="font-bold">$50.90</p>
           </div>
         </div>
         <div className="popularItemCard">
@@ -56,7 +56,7 @@ export default function PopularProducts() {
           </div>
           <div className="py-3">
             <h3>Lorem isum</h3>
-            <p>$50.90</p>
+            <p className="font-bold">$50.90</p>
           </div>
         </div>
         <div className="popularItemCard">
@@ -81,7 +81,7 @@ export default function PopularProducts() {
           </div>
           <div className="py-3">
             <h3>Lorem isum</h3>
-            <p>$50.90</p>
+            <p className="font-bold">$50.90</p>
           </div>
         </div>
         <div className="popularItemCard">
@@ -106,7 +106,7 @@ export default function PopularProducts() {
           </div>
           <div className="py-3">
             <h3>Lorem isum</h3>
-            <p>$50.90</p>
+            <p className="font-bold">$50.90</p>
           </div>
         </div>
         <div className="popularItemCard">
@@ -131,7 +131,7 @@ export default function PopularProducts() {
           </div>
           <div className="py-3">
             <h3>Lorem isum</h3>
-            <p>$50.90</p>
+            <p className="font-bold">$50.90</p>
           </div>
         </div>
         <div className="popularItemCard">
@@ -156,7 +156,7 @@ export default function PopularProducts() {
           </div>
           <div className="py-3">
             <h3>Lorem isum</h3>
-            <p>$50.90</p>
+            <p className="font-bold">$50.90</p>
           </div>
         </div>
       </section>

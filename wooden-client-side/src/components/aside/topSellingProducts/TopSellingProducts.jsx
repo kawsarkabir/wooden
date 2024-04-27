@@ -1,6 +1,6 @@
 export default function TopSellingProducts() {
   return (
-    <>
+    <div className="py-3">
       <h1 className="bg-[#333] text-[#ccc] font-bold pl-4 py-3 mb-2">
         TOP SELLERS
       </h1>
@@ -102,6 +102,6 @@ export default function TopSellingProducts() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -2,7 +2,7 @@ import "./PopularProducts.css";
 
 export default function PopularProducts() {
   return (
-    <section className="my-10">
+    <section className="my-10 p-3">
       <h1 className="text-xl lg:text-2xl font-bold">POPULAR THIS WEEK</h1>
       <p>
         Lorem Ipsum has been the industry&lsquo;s standard dummy text ever since

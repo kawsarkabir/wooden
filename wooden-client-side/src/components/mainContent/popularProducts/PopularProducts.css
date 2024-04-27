@@ -1,0 +1,64 @@
+.popularItemCard {
+  position: relative;
+  transition: 0.3s;
+}
+
+.cardContent {
+  position: relative;
+  overflow: hidden;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 7px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.icon {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 6px 12px;
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  background: #000;
+  color: #fff;
+}
+
+.popularItemCard:hover .cardImage {
+  transform: scale(1.05);
+}
+
+.popularItemCard:hover .overlay {
+  opacity: 1;
+}
+
+.popularItemCard:hover .icons {
+  opacity: 1;
+}
+
+.popularItemCard:hover {
+  box-shadow: 1px 10px 30px #cccccc;
+}

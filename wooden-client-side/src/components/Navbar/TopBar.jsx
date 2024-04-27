@@ -60,7 +60,7 @@ export default function TopBar() {
         </div>
       </section>
       {/* searbar input form */}
-      <section className="max-w-screen-sm mx-auto searchBar">
+      <section className="max-w-screen-sm mx-auto searchBar p-3">
         <form className="form relative ">
           <input
             className="input rounded px-8 py-3 border-2  placeholder-gray-400 focus:outline-[#33c9db]  w-full"
@@ -89,7 +89,7 @@ export default function TopBar() {
           </button>
         </form>
       </section>
-      <div className="border-b max-w-screen-xl mx-auto mt-10"></div>
+      <div className="border-b p-3 hidden lg:block max-w-screen-xl mx-auto mt-10"></div>
     </>
   );
 }

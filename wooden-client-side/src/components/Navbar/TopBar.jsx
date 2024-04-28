@@ -46,11 +46,11 @@ export default function TopBar() {
         </section>
         {/* sub topbar */}
       </div>
-      <section className="subTopbar flex justify-between items-center max-w-screen-xl mx-auto p-3">
+      <section className="subTopbar flex justify-center lg:justify-between items-center max-w-screen-xl mx-auto p-3">
         <div>
           <span className="text-2xl uppercase font-bold">Wooden</span>
         </div>
-        <div className="flex items-center gap-x-1">
+        <div className="lg:flex items-center gap-x-1 hidden lg:block">
           <img src="https://i.ibb.co/VH724v1/download.png" alt="" />
           <div className="mt-2">
             <span className="cart-products-count font-bold">0</span>
@@ -60,15 +60,19 @@ export default function TopBar() {
         </div>
       </section>
       {/* searbar input form */}
-      <section className="max-w-screen-sm mx-auto searchBar p-3">
-        <form className="form relative ">
+      <div className="container mx-auto flex p-3 items-center">
+        <form className="rounded flex items-center border max-w-screen-md mx-auto w-full">
+          <div className="relative">
+            <div className="hover-trigger bg-transparent uppercase font-bold text-sm whitespace-nowrap  cursor-pointer px-4 hidden lg:block md:block">
+              All Categories <i className="ml-1 fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
           <input
-            className="input rounded px-8 py-3 border-2  placeholder-gray-400 focus:outline-[#33c9db]  w-full"
-            placeholder="Search Your Product..."
-            required
+            className="border-l bg-transparent focus:outline-[#33c9db] font-semibold py-3 pl-4 w-full"
             type="text"
+            placeholder="I'm searching for ..."
           />
-          <button className="absolute right-0 py-4 px-4 hover:bg-[#666] transition bg-[#33c9db] -translate-y-1/2 top-1/2 p-1">
+          <button className="py-4 px-4 hover:bg-[#666] transition bg-[#33c9db] ml-auto">
             <svg
               width="17"
               height="16"
@@ -88,8 +92,8 @@ export default function TopBar() {
             </svg>
           </button>
         </form>
-      </section>
-      <div className="border-b p-3 hidden lg:block max-w-screen-xl mx-auto mt-10"></div>
+      </div>
+      <div className="border-b max-w-screen-lg mx-auto lg:mt-5"></div>
     </>
   );
 }

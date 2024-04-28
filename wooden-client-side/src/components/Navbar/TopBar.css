@@ -21,3 +21,34 @@
 .right_border li:last-child::after {
   display: none;
 }
+/* Add this to your existing CSS or create a new CSS file */
+
+/* Dropdown menu */
+.dropdown-content {
+  z-index: 10; /* Ensure dropdown is on top of other content */
+}
+
+.hover-trigger {
+  transition: background-color 0.3s ease-in-out; /* Smooth background color transition */
+}
+
+.hover-trigger:hover + .dropdown-content {
+  opacity: 1;
+  top: calc(100% + 5px);
+  visibility: visible;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-content ul li:hover {
+  background-color: #f3f4f6; /* Adjust the background color on hover */
+}
+
+/* Style links in dropdown */
+.dropdown-content ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-content ul li a:hover {
+  color: #000;
+}
